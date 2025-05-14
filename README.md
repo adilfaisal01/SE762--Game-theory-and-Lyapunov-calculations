@@ -3,7 +3,7 @@ This repository simulates a penalty shootout using replicator dynamics from Game
 - final_report_762_report_adil_05032025.pdf: This is the white paper for the project and explains the concepts implemented in the project. 
 
 To-do list:
-- [] Implement policy gradient algorithm on the existing system
-- [] Examine how the Lyapunov theory lines up with the RL policy
+- [ ] Implement policy gradient algorithm on the existing system
+- [ ] Examine how the Lyapunov theory lines up with the RL policy
 
 
