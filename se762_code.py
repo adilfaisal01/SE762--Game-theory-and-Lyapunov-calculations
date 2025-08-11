@@ -102,7 +102,7 @@ class SoccerGame:
 
     ## using Feedback Linearization to make the replicator dynamics asymptotically stable
 
-    def feedback_linearization(self,t,z,k):
-        dxdt_controlled=-k*(z-self.EQ_pts)
+    def feedback_linearization(self,t,z):
+        dxdt_controlled=-0.5*(z-self.EQ_pts)
         return dxdt_controlled
 
