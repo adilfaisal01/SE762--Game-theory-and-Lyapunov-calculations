@@ -6,4 +6,8 @@ To-do list:
 - [ ] Implement policy gradient algorithm on the existing system
 - [ ] Examine how the Lyapunov theory lines up with the RL policy
 
+August-October:
+- [ ] Introduce sliding mode control to account for uncertainties in the payoff matrices
+- [ ] Compare the feedback linearization approach and SMC control approaches
+
 
