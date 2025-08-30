@@ -1,4 +1,6 @@
 __pycache__/
 *.pyc
 *.pyo
-
+ogfile.py
+ogtest.py
+mabrok_RPSgame.py
