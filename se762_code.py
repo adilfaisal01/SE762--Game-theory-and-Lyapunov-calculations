@@ -26,8 +26,12 @@ class SoccerGame:
             self.B = gk_payoff
 
     def payoffs(self,x,y):
-        striker_payoffs=self.A@y
-        gk_payoffs=self.B@x
-        return striker_payoffs,gk_payoffs
+        self.striker_payoffs=self.A@y
+        self.gk_payoffs=self.B@x
+        return self.striker_payoffs,self.gk_payoffs
     
+    def feedbackgain(self,K,x,y):
+        Tdot_striker=self.striker_payoffs-K[0]*x
+        Tdot_gk=self.gk_payoffs-K[1]*y
+        return Tdot_striker,Tdot_gk
     
